@@ -1,0 +1,39 @@
+.about__main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  padding: 0.5rem 3rem;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.main__attributes {
+  display: flex;
+  padding: 2rem 3rem 0;
+}
+
+.attributes__left {
+  font-weight: 500;
+  font-style: normal;
+  list-style-type: none;
+  padding-right: 1rem;
+}
+
+.attributes__left li {
+  margin-bottom: 0.5rem; 
+}
+
+.attributes__right {
+  font-weight: 300;
+  font-style: italic;
+  list-style-type: none;
+}
+
+.attributes__right li {
+  margin-bottom: 0.5rem; 
+}
