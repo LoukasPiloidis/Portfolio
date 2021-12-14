@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/portfolio/static/css/main.58d974c7.chunk.css",
     "main.js": "/portfolio/static/js/main.3d814c26.chunk.js",
     "main.js.map": "/portfolio/static/js/main.3d814c26.chunk.js.map",
@@ -10,14 +11,32 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.58d974c7.chunk.css.map": "/portfolio/static/css/main.58d974c7.chunk.css.map",
     "static/js/2.f931b477.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f931b477.chunk.js.LICENSE.txt",
+=======
+    "main.css": "/portfolio/static/css/main.74ae646e.chunk.css",
+    "main.js": "/portfolio/static/js/main.5da62495.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5da62495.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/js/2.df7e9da2.chunk.js": "/portfolio/static/js/2.df7e9da2.chunk.js",
+    "static/js/2.df7e9da2.chunk.js.map": "/portfolio/static/js/2.df7e9da2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.74ae646e.chunk.css.map": "/portfolio/static/css/main.74ae646e.chunk.css.map",
+    "static/js/2.df7e9da2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.df7e9da2.chunk.js.LICENSE.txt",
+>>>>>>> e0d544f5481aef9016115ce064283129dad54314
     "static/media/Apella.a7324c47.png": "/portfolio/static/media/Apella.a7324c47.png",
     "static/media/GameHub.079ab366.png": "/portfolio/static/media/GameHub.079ab366.png",
     "static/media/Loukas.36338665.png": "/portfolio/static/media/Loukas.36338665.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
+<<<<<<< HEAD
     "static/js/2.f931b477.chunk.js",
     "static/css/main.58d974c7.chunk.css",
     "static/js/main.3d814c26.chunk.js"
+=======
+    "static/js/2.df7e9da2.chunk.js",
+    "static/css/main.74ae646e.chunk.css",
+    "static/js/main.5da62495.chunk.js"
+>>>>>>> e0d544f5481aef9016115ce064283129dad54314
   ]
 }
