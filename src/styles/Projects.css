@@ -38,6 +38,7 @@
   align-items: center;
   text-align: center;
   justify-content: space-around;
+  width: 100%;
 }
 
 .text__title {
@@ -56,12 +57,14 @@
   width: 100%;
 }
 
-.text__buttons button {
+.button {
+  text-decoration: none;
   background-color: #323232;
-  padding: 0.3rem;
+  padding: 0.5rem;
   border-radius: 4px;
+  box-shadow: #323232;
 }
 
-.bounce {
-  bottom: 0;
+.button:hover {
+  background-color: #4b4a4a;
 }
