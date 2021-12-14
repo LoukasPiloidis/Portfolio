@@ -1,5 +1,7 @@
 .navbar__list {
+  position: sticky;
   width: 100%;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

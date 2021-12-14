@@ -6,12 +6,19 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   color: #FFFBFB;
+  text-shadow: 2px 2px 4px #242323;
 }
 
 body {
-  background-color: #323232;
+  background-color: #5d5c5c;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+#root {
+  max-width: 800px;
+  margin: auto;
+  background-color: #323232;
 }
