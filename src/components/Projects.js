@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="projects__main">
-        <img src={GameHub} className="main__image"/>
+        <img src={GameHub} alt="GameHub" className="main__image"/>
         <div className="main__text">
           <h2 className="text__title">GameHub</h2>
           <h3 className="text__subtitle">A Social Medium for gamers</h3>
@@ -20,7 +20,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="projects__main">
-        <img src={GameHub} className="main__image"/>
+        <img src={GameHub} alt="Apella" className="main__image"/>
         <div className="main__text">
           <h2 className="text__title">Apella</h2>
           <h3 className="text__subtitle">An online poll for movies</h3>
