@@ -1,0 +1,54 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__main {
+  width: 80vw;
+  background-color: #FFFBFB;
+  display: flex;
+  margin: auto;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+.main__image {
+  width: 100px;
+  height: 200px;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.text__title {
+  color: #323232;
+}
+
+.text__subtitle {
+  color: #323232;
+  font-style: italic;
+}
+
+.text__buttons {
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+.text__buttons button {
+  background-color: #323232;
+  padding: 0.3rem;
+  border-radius: 4px;
+}
+
+.bounce {
+  bottom: 0;
+}
