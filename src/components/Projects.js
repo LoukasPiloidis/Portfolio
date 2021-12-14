@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import GameHub from '../images/GameHub.png';
 import Apella from '../images/Apella.png';
-import { Link } from 'react-router-dom';
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { Link } from 'react-scroll';
 import '../styles/Projects.css';
 
 const Projects = ({ setCurrentPage }) => {
@@ -12,6 +13,8 @@ const Projects = ({ setCurrentPage }) => {
 
   return (
     <div className="projects">
+      <Link to="about__main" ><IoIosArrowUp size={'2rem'} className="arrow-up" /></Link>
+      <h2>Projects</h2>
       <div className="projects__main">
         <img src={GameHub} alt="GameHub" className="main__image"/>
         <div className="main__text">
@@ -34,8 +37,7 @@ const Projects = ({ setCurrentPage }) => {
           </div>
         </div>
       </div>
-      <Link to="/contact">
-      </Link>
+      <Link to="contact" ><IoIosArrowDown size={'2rem'} className="arrow-down"/></Link>
     </div>
   )
 };

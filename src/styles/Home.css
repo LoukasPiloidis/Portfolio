@@ -1,8 +1,9 @@
 .home__main {
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 79vh;
+  height: 100vh;
 }
 
 .home__image {
@@ -38,4 +39,8 @@
   text-align: center;
   font-weight: 500;
   font-size: 18px;
+}
+
+.arrow-down {
+  margin-top: 4rem;
 }

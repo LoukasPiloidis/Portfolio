@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { FaLinkedin, FaGithub, FaFacebookSquare, FaPhoneAlt } from 'react-icons/fa';
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import { IoIosArrowUp } from "react-icons/io";
+import { Link } from 'react-scroll';
 import '../styles/Contact.css';
 
 const Contact = ({ setCurrentPage }) => {
@@ -10,7 +12,8 @@ const Contact = ({ setCurrentPage }) => {
   }, [])
 
   return (
-    <div className="contact-main">
+    <div className="contact">
+      <Link to="projects" ><IoIosArrowUp size={'2rem'} /></Link>
       <h3 className="main__touch">Let's get in touch</h3>
       <h3 className="main__find">You can find me here:</h3>
       <div className="socials">
