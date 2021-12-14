@@ -13,10 +13,10 @@ function App() {
     <>
       <Header currentPage={currentPage}/>
       <Routes>
-        <Route path="/" element={<Home setCurrentPage={setCurrentPage} />} />
-        <Route path="/about" element={<About setCurrentPage={setCurrentPage} />} />
-        <Route path="/projects" element={<Projects setCurrentPage={setCurrentPage} />} />
-        <Route path="/contact" element={<Contact setCurrentPage={setCurrentPage} />} />
+        <Route path="/portfolio" element={<Home setCurrentPage={setCurrentPage} />} />
+        <Route path="/portfolio/about" element={<About setCurrentPage={setCurrentPage} />} />
+        <Route path="/portfolio/projects" element={<Projects setCurrentPage={setCurrentPage} />} />
+        <Route path="/portfolio/contact" element={<Contact setCurrentPage={setCurrentPage} />} />
       </Routes>
     </>
   );
