@@ -1,0 +1,27 @@
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 79vh;
+}
+
+.main__touch {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 2rem 0;
+}
+
+.main__find, .main__email, .main__talk {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  padding-bottom:1rem;
+}
+
+.email, .phone, .socials {
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4rem;
+}
