@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import GameHub from '../images/GameHub.png';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import Apella from '../images/Apella.png';
+import { Link } from 'react-router-dom';
 import '../styles/Projects.css';
 
-const Projects = () => {
+const Projects = ({ setCurrentPage }) => {
+
+  useEffect(() => {
+    setCurrentPage('Projects');
+  }, [])
+
   return (
     <div className="projects">
       <div className="projects__main">
@@ -20,7 +24,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="projects__main">
-        <img src={GameHub} alt="Apella" className="main__image"/>
+        <img src={Apella} alt="Apella" className="main__image"/>
         <div className="main__text">
           <h2 className="text__title">Apella</h2>
           <h3 className="text__subtitle">An online poll for movies</h3>
@@ -30,7 +34,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <FontAwesomeIcon icon={faChevronDown} className="bounce" transform="down-20"></FontAwesomeIcon>
+      <Link to="/contact">
+      </Link>
     </div>
   )
 };

@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaLinkedin, FaGithub, FaFacebookSquare, FaPhoneAlt } from 'react-icons/fa';
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import '../styles/Contact.css';
 
-const Contact = () => {
+const Contact = ({ setCurrentPage }) => {
+
+  useEffect(() => {
+    setCurrentPage('Contact');
+  }, [])
+
   return (
     <div className="contact-main">
       <h3 className="main__touch">Let's get in touch</h3>

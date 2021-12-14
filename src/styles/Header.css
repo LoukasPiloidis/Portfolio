@@ -13,7 +13,7 @@
   padding: 0.3rem 0.5rem;
 }
 
-.navbar__item:hover {
+.active {
   background-color: rgb(243, 240, 240);
   color: rgb(59, 56, 56);
   border-radius: 4px;

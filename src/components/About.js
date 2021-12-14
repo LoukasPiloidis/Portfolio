@@ -1,9 +1,11 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import React, { useEffect } from 'react';
 import '../styles/About.css';
 
-const About = () => {
+const About = ({ setCurrentPage }) => {
+
+  useEffect(() => {
+    setCurrentPage('About');
+  }, [])
   return (
     <div className="about__main">
       <p>After finishing my bachelor’s and master’s degree in Media and Communications, I decided to put all that knowledge to a practical test.</p>
@@ -21,7 +23,6 @@ const About = () => {
           <li>Love for the field and deep curiosity</li>
         </ul>
       </div>
-      <FontAwesomeIcon icon={faChevronDown} className="bounce" transform="down-5"></FontAwesomeIcon>
     </div>
   )
 };
