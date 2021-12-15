@@ -33,7 +33,7 @@ const Projects = ({ setCurrentPage }) => {
           <h3 className="text__subtitle">An online poll for movies</h3>
           <div className="text__buttons">
             <a className="button" href="https://github.com/LoukasPiloidis/Apella" target="_blank" >Source Code</a>
-            <a className="button" href="https://github.com/LoukasPiloidis/GameHub" target="_blank" >Check it out</a>
+            <a className="button" href="https://apella-client.herokuapp.com/" target="_blank" >Check it out</a>
           </div>
         </div>
       </div>
