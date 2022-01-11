@@ -37,6 +37,17 @@ const Projects = ({ setCurrentPage }) => {
           </div>
         </div>
       </div>
+      <div className="projects__main">
+        <img src={Apella} alt="todo" className="main__image"/>
+        <div className="main__text">
+          <h2 className="text__title">To Do</h2>
+          <h3 className="text__subtitle">A classic project on steroids</h3>
+          <div className="text__buttons">
+            <a className="button" href="https://github.com/LoukasPiloidis/todo-typescript" target="_blank" >Source Code</a>
+            <a className="button" href="https://todo-loukas.herokuapp.com/" target="_blank" >Check it out</a>
+          </div>
+        </div>
+      </div>
       <Link to="contact" ><IoIosArrowDown size={'2rem'} className="arrow-down"/></Link>
     </div>
   )
