@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import GameHub from '../images/GameHub.png';
 import Apella from '../images/Apella.png';
+import Todo from '../images/Todo.png';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { Link } from 'react-scroll';
 import '../styles/Projects.css';
@@ -38,7 +39,7 @@ const Projects = ({ setCurrentPage }) => {
         </div>
       </div>
       <div className="projects__main">
-        <img src={Apella} alt="todo" className="main__image"/>
+        <img src={Todo} alt="todo" className="main__image"/>
         <div className="main__text">
           <h2 className="text__title">To Do</h2>
           <h3 className="text__subtitle">A classic project on steroids</h3>
