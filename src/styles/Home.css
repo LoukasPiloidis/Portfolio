@@ -42,5 +42,6 @@
 }
 
 .arrow-down {
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
+  bottom: 0;
 }

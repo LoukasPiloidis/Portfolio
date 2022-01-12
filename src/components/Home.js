@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-scroll';
 import '../styles/Home.css';
 import homeImage from '../images/Loukas.png';
 
-const Home = ({ setCurrentPage }) => {
-
-  useEffect(() => {
-    setCurrentPage('Home');
-  }, [])
+const Home = () => {
 
   return (
     <div className="home__main">
