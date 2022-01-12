@@ -24,20 +24,6 @@ const About = () => {
         <h3 className='block__title'>On Personality</h3>
         <p className='block__text'>Admirer of minimalism, curious about everything, and the best team player your team will ever have.</p>
       </div>
-      
-      
-      {/* <div className="main__attributes" >
-        <ul className="attributes__left" >
-          <li>Style:</li>
-          <li>Asset:</li>
-          <li>Drive:</li>
-        </ul>
-        <ul className="attributes__right" >
-          <li>Minimalistic</li>
-          <li>Team player</li>
-          <li>Love for the field and deep curiosity</li>
-        </ul>
-      </div> */}
       <Link to="projects" ><IoIosArrowDown size={'2rem'} className="arrow-down" /></Link>
     </div>
   )
